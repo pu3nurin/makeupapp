@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Notation</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="photon.min.css" />
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="iconmu.png">
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="makeup.html" class="nav-link">HOME</a></li>
+        <li><a href="index.html" class="nav-link">NOTES</a></li>
+        <li><a href="#" class="nav-link" onclick="self.close();">EXIT</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+    <div class="mainWrapper">
+    
+      <h1>my sticky notes;</h1>
+      <div class="box1">
+        <form id="form2">
+          <div class="form-group">
+            <label>File name</label>
+            <input id="fileName" type="text" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Content</label>
+            <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          </div>
+        </form>
+        <button id="btnCreate" class="btn btn-default">Create</button>
+        <button id="btnRead" class="btn btn-default">Read</button>
+        <button id="btnDelete" class="btn btn-default">Delete</button>
+        <button id="btnUpdate" class="btn btn-default">Update</button>  
+      </div>
+    </div>
+  
+    
+
+  <script src="main.js">
+    
+    
+  </script>
+  
+</body>
+</html>
